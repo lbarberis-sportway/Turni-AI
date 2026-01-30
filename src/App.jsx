@@ -4,6 +4,7 @@ import { UploadSection } from './components/UploadSection';
 import { ScheduleTable } from './components/ScheduleTable';
 import { generateSchedule } from './utils/scheduler';
 import { BrainCircuit } from 'lucide-react';
+import { SpeedInsights } from "@vercel/speed-insights/react"
 
 function App() {
   const [schedule, setSchedule] = useState(null);
